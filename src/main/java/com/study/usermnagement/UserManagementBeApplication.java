@@ -1,4 +1,4 @@
-package com.study.manager;
+package com.study.usermnagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

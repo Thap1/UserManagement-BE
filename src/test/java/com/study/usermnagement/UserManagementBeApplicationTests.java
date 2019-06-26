@@ -1,4 +1,4 @@
-package com.study.manager;
+package com.study.usermnagement;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
