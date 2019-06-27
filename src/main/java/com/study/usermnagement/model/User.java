@@ -51,14 +51,12 @@ public class User {
 	private Set<Role> roles = new HashSet<>();
 
 	public User(@NotBlank @Size(min = 3, max = 50) String name, @NotBlank @Size(min = 3, max = 50) String username,
-			@NotBlank @Size(max = 50) @Email String email, @NotBlank @Size(min = 6, max = 100) String password,
-			Set<Role> roles) {
+			@NotBlank @Size(max = 50) @Email String email, @NotBlank @Size(min = 6, max = 100) String password) {
 		super();
 		this.name = name;
 		this.username = username;
 		this.email = email;
 		this.password = password;
-		this.roles = roles;
 	}
 
 	public Long getId() {
